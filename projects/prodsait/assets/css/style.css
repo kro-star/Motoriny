@@ -1,0 +1,207 @@
+.ls2{
+    letter-spacing: 2px;
+}
+.ls28{
+    letter-spacing: 2.8px;
+}
+.fs60{
+    font-size: 60px;
+}
+.bgimg{
+
+    background: url("../img/comp-brain.png") #000 100% 50% no-repeat;
+    background-size: contain;
+    
+}
+.bg-grad{
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, #7E5ACA 0%, #7E5ACA 100%), radial-gradient(2243.61% 171.79% at 2.54% 0%, #007398 0%, #FE6DEF 21.47%, #6ECDEB 40.74%, rgba(166, 78, 174, 0.93) 59.49%, #57C0D7 74.6%, #C557D7 86.57%, #5CBBFF 100%);
+background-blend-mode: normal, hue, normal;
+box-shadow: 0px 3px 1.5px 0px rgba(0, 0, 0, 0.40) inset;
+}
+.pt3{padding-top: 3px;}
+.mt120{margin-top: 120px;}
+.w30{width: 30px;}
+.w80{width: 80px;}
+.w-278{
+    width: 278px;
+}
+.h-15{height: 15px;}
+.h30{height: 30px;}
+.h-80{
+    height: 80px;
+}
+.h-332{height: 332px;}
+.h233{height: 233px;}
+.h478{height: 478px;}
+.h150{height: 150px;}
+
+.bg-text-img-servises{
+    background-image: url(../img/servises-name.png);
+    background-position: 144px 10px;
+    background-repeat: no-repeat;
+}
+.bg-text-img-work{
+    background-image: url(../img/work-name.png);
+    background-position: 144px 10px;
+    background-repeat: no-repeat;
+
+}
+.bg-text-img-about{
+    background-image: url(../img/about-name.png);
+    background-position: 144px 10px;
+    background-repeat: no-repeat;
+
+}
+.bg-text-img-how-work{
+    
+    background-image: url(../img/how-work.png);
+    background-position: 144px 10px;
+    background-repeat: no-repeat;
+}
+.bg-text-img-rates{
+    
+    background-image: url(../img/rates-name.png);
+    background-position: 144px 10px;
+    background-repeat: no-repeat;
+}
+.bg-text-img-work-with-us{
+    background-image: url(../img/work-with-us-name.png);
+    background-position: 144px 10px;
+    background-repeat: no-repeat;
+
+}
+.bg-text-img-otziv{
+    
+    background-image: url(../img/otziv-name.png);
+    background-position: 144px 10px;
+    background-repeat: no-repeat;
+}
+.text-violet{
+    color: rgba(157, 123, 255, 1);
+}
+.position-image{
+    top: -606px;
+    left: -663px;
+    max-width: 200% !important;
+    max-height: 200% !important;
+    transform: rotate(10.014deg);
+}
+.position-image2{
+    width: 5264.502px !important;
+    height: 1361.75px !important;
+    transform: rotate(7.102deg);
+    filter: blur(20px);
+    bottom: -634px;
+    left: -2318px;
+ 
+}
+.position-bant3{
+    width: 336.608px;
+    height: 412.412px;
+transform: rotate(-15.976deg);
+filter: blur(5px);
+top: -505px;
+right: -166px;
+}
+.card .back{
+    animation-name: open-back;
+    animation-duration: 1s;
+}
+
+@keyframes open-back {
+    from {
+      width: 0px;
+    }
+    to {
+      width: calc(100%-20px);
+    }
+  }
+
+  
+.position-img-work{
+    bottom: -15px;
+    left: -15px;
+}
+.position-arrow-card{
+    bottom: 20px;
+    right: 20px;
+}
+.center{right: 0; left: 0;}
+.mauto{margin: auto;}
+.w100{ width: 100%;}
+.ff-inter{    
+    font-family: "Inter";
+}
+li{
+    font-family: "Inter";
+}
+.li-blue::marker{
+    color: #72B5E9;
+}
+.img-brain-size{
+    width: 288px;
+}
+.bg-mentol{
+    background-color: rgba(114, 181, 233, 1);
+}
+.bg-dark-grey{
+    background-color: #1D1D1D;
+}
+.c-grey{color: rgba(107, 107, 107, 1);}
+.c-violet{color: rgba(137, 107, 223, 1);}
+.shadow06100{
+    box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.25);
+}
+.position-triangle{
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.top20{
+    top: 20px;
+}
+
+.fdir-column{flex-direction: column;}
+.f-grow-1{flex-grow: 2;}
+@media (min-width: 576px){
+
+}
+
+@media (min-width: 768px){
+    .sm-img-size{
+        width: 331px;
+    }
+    .sm-fr{
+        float: right;
+    }
+    .sm-position-bant3{
+        width: 700px;
+        height: 757.327px;
+    transform: rotate(-15.976deg);
+    filter: blur(5px);
+    top: 330px;
+    right: -210px;
+    }
+}
+@media (min-width: 1240px){
+    .lg-img-size{
+        width: 635px;
+        height: 589px;
+    }
+    .lg-h478{height: 478px;}
+    .lg-w150{width: 160px;}
+    .lg-w270{width: 270px;}
+    .lg-mt315{
+        margin-top: 315px;
+    }
+    .lg-position-bant3{
+        width: 1200px;
+    height: 1298.274px;
+    transform: rotate(-15.976deg);
+    flex-shrink: 0;
+    filter: blur(5px);
+    top: -1028px;
+    right: -830px;
+    }
+}
+    
